@@ -5,6 +5,8 @@
 ## Project Overview
 This project implements a deep learning solution for remote sensing data analysis using PyTorch. The system is designed to detect and segment burn scars from satellite imagery using a transformer-based architecture.
 
+## WanDB Link
+[https://wandb.ai/srm-srm/rsds-hackathon-24/reports/GRSS-HACKTHON-SKIBIDI--Vmlldzo5ODYwMjUy?accessToken=bd3brxg2l1gbq4g9bd048d5egfwmulm03cwapxxqlboqit6qr9kob0vs1o3blkuv](https://wandb.ai/srm-srm/rsds-hackathon-24/reports/GRSS-HACKTHON-SKIBIDI--Vmlldzo5ODYwMjUy?accessToken=bd3brxg2l1gbq4g9bd048d5egfwmulm03cwapxxqlboqit6qr9kob0vs1o3blkuv)
 ## Initial Setup
 ### Prerequisites
 - AWS Account with appropriate permissions
