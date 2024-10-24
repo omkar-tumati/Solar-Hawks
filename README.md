@@ -7,6 +7,20 @@ This project implements a deep learning solution for remote sensing data analysi
 
 ## WanDB Link
 [https://wandb.ai/srm-srm/rsds-hackathon-24/reports/GRSS-HACKTHON-SKIBIDI--Vmlldzo5ODYwMjUy?accessToken=bd3brxg2l1gbq4g9bd048d5egfwmulm03cwapxxqlboqit6qr9kob0vs1o3blkuv](https://wandb.ai/srm-srm/rsds-hackathon-24/reports/GRSS-HACKTHON-SKIBIDI--Vmlldzo5ODYwMjUy?accessToken=bd3brxg2l1gbq4g9bd048d5egfwmulm03cwapxxqlboqit6qr9kob0vs1o3blkuv)
+
+## Final Version: 11
+[https://drive.google.com/drive/folders/1VXFCHfhnNQYC-a4JNNEEes9vbA1DtpYS?usp=sharing](https://drive.google.com/drive/folders/1VXFCHfhnNQYC-a4JNNEEes9vbA1DtpYS?usp=sharing)
+
+## Final Results
+
+[<img src="https://github.com/omkar-tumati/Solar-Hawks/blob/main/Images/version11.png" width="400">](https://github.com/omkar-tumati/Solar-Hawks/blob/main/Images/version11.png)
+
+## Final Accuracy
+
+[<img src="https://github.com/omkar-tumati/Solar-Hawks/blob/main/Images/multi-accuracy.png" width="400">](https://github.com/omkar-tumati/Solar-Hawks/blob/main/Images/multi-accuracy.png)
+
+## Validation Loss
+[<img src="https://github.com/omkar-tumati/Solar-Hawks/blob/main/Images/Val-loss.png" width="400">](https://github.com/omkar-tumati/Solar-Hawks/blob/main/Images/Val-loss.png)
 ## Initial Setup
 ### Prerequisites
 - AWS Account with appropriate permissions
