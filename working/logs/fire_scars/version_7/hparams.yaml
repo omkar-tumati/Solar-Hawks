@@ -1,0 +1,47 @@
+_class_path: terratorch.tasks.SemanticSegmentationTask
+model_args:
+  decoder: FCNDecoder
+  pretrained: true
+  backbone: prithvi_vit_100
+  decoder_channels: 256
+  in_channels: 6
+  bands:
+  - BLUE
+  - GREEN
+  - RED
+  - NIR_NARROW
+  - SWIR_1
+  - SWIR_2
+  num_frames: 1
+  num_classes: 2
+  head_dropout: 0.1
+  decoder_num_convs: 2
+  head_channel_list:
+  - 256
+  patch_size: 16
+  embed_dim: 768
+  num_heads: 12
+  tubelet_size: 1
+model_factory: PrithviModelFactory
+loss: dice
+aux_heads: null
+aux_loss: null
+class_weights: null
+ignore_index: -1
+lr: 0.001
+optimizer: null
+optimizer_hparams: null
+scheduler: null
+scheduler_hparams: null
+freeze_backbone: false
+freeze_decoder: false
+plot_on_val: 10
+class_names: null
+tiled_inference_parameters:
+  h_crop: 224
+  h_stride: 112
+  w_crop: 224
+  w_stride: 112
+  delta: null
+  average_patches: true
+_instantiator: lightning.pytorch.cli.instantiate_module
